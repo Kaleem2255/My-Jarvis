@@ -77,7 +77,7 @@ if __name__ == "__main__":
             webbrowser.open("youtube.com")
 
         elif 'Who am I' in query:
-            speak("You are Kaleem")
+            speak("You are Owner")
 
         elif 'open instagram' in query:
             webbrowser.open("instagram.com")
@@ -111,7 +111,7 @@ if __name__ == "__main__":
             try:
                 speak("What should I say")
                 content = takeCommand()
-                to = "kaleem_10u@outlook.com"
+                to = " "
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
